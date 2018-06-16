@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Page</title>
+	<header>Priyam Banerjee 1001529497</header>
+</head>
+<body>
+		<br>
+		<p> Clustering earthquakes by Location Source </p>
+		<p> Number of Earthquakes : 9 </p>
+		<table width="600" border="1" cellpadding="1" cellspacing="1">
+			<tr>
+				<th>Num of Earthquakes</th>
+				<th>Location Source</th>
+			</tr>
+			
+				{% for i in range(9) %}
+				<tr>
+				<td>{{ number[i] }}</td>
+				<td>{{ locsource[i] }}</td>
+				</tr>
+				{% endfor %}
+		</table>
+</body>
+</html>

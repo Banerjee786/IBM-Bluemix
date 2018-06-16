@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Page</title>
+	<header>Priyam Banerjee 1001529497</header>
+</head>
+<body>
+		<br>
+		
+		lATITUDE 1 : <input type="text" name="mag1">
+		LATITUDE 2: <input type="text" name="mag2">
+		Enter a Place: <input type="text" name="place">
+		<input type="submit" name="Submit" value="Submit">
+		<p> Occuring with magnitude between 3.0 and 5 </p>
+		<p> Number of Earthquakes : {{ numRows1 }} </p>
+		<table width="600" border="1" cellpadding="1" cellspacing="1">
+			<tr>
+				<th>Time</th>
+				<th>Latitude</th>
+				<th>Longitude</th>
+				
+			</tr>
+			
+				
+				<tr>
+				<td>{{ time1[0] }}</td>
+				<td>{{ latitude1[0] }}</td>
+				<td>{{ longitude1[0] }}</td>
+				</tr>
+				
+		</table>
+		
+</body>
+</html>
